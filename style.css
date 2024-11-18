@@ -1,0 +1,165 @@
+:root {
+  --primary-color: #52240d; /* Cor escura para o fundo principal */
+  --secondary-color: #ab5d39; /* Cor para destaque */
+  --accent-color: #c79033; /* Cor de destaque suave */
+  --button-color: #c76234; /* Cor para botões */
+  --button-hover-color: #ffe294; /* Cor para hover nos botões */
+  --text-color: #52240d; /* Cor do texto */
+  --quiz-color: white; /* Cor do texto */
+  --background-color: #ffe294; /* Cor de fundo clara */
+}
+
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header .center {
+  margin-top: 20px;
+}
+
+header .image {
+  max-width: 30%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.frase {
+  border: 7px solid var(--secondary-color);
+  font-size: 25px;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--secondary-color);
+}
+
+.image {
+  max-width: 25%;
+  border-radius: 10px;
+}
+
+.book-cover {
+  max-width: 20%;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+blockquote {
+  font-style: italic;
+  color: var(--secondary-color);
+  margin: 10px 0;
+  border-left: 5px solid var(--primary-color);
+  padding-left: 10px;
+}
+
+.quiz-section {
+  margin-top: 20px;
+  background-color: var(--primary-color);
+  padding: 20px;
+  border-radius: 10px;
+  color: var(--quiz-color);
+}
+
+.quiz .answers button {
+  background-color: var(--button-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.quiz .answers button:hover {
+  background-color: var(--button-hover-color);
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.livros, .musicas {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.musicas ul, .livros ul {
+  list-style: none;
+  padding: 0;
+}
+
+.musicas li, .livros li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.music-cover {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.livros li img,
+.musicas li img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+  
+
